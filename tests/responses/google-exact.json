@@ -1,0 +1,84 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "7",
+               "short_name" : "7",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "724",
+               "short_name" : "724",
+               "types" : [ "premise" ]
+            },
+            {
+               "long_name" : "Revoluční",
+               "short_name" : "Revoluční",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Staré Město",
+               "short_name" : "Staré Město",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Praha 1",
+               "short_name" : "Praha 1",
+               "types" : [ "sublocality_level_1", "sublocality", "political" ]
+            },
+            {
+               "long_name" : "Praha",
+               "short_name" : "Praha",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Praha 1",
+               "short_name" : "Praha 1",
+               "types" : [ "postal_town" ]
+            },
+            {
+               "long_name" : "Hlavní město Praha",
+               "short_name" : "Hlavní město Praha",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Hlavní město Praha",
+               "short_name" : "Hlavní město Praha",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Česká republika",
+               "short_name" : "CZ",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "110 00",
+               "short_name" : "110 00",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Revoluční 724/7, Staré Město, 110 00 Praha-Praha 1, Česká republika",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.09035979999999,
+               "lng" : 14.4276919
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.0917087802915,
+                  "lng" : 14.4290408802915
+               },
+               "southwest" : {
+                  "lat" : 50.0890108197085,
+                  "lng" : 14.4263429197085
+               }
+            }
+         },
+         "place_id" : "ChIJ0a83eeqUC0cRKsVRhymeiQE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

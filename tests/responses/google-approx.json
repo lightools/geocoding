@@ -1,0 +1,74 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Revoluční",
+               "short_name" : "Revoluční",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Praha 1",
+               "short_name" : "Praha 1",
+               "types" : [ "sublocality_level_1", "sublocality", "political" ]
+            },
+            {
+               "long_name" : "Praha",
+               "short_name" : "Praha",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Hlavní město Praha",
+               "short_name" : "Hlavní město Praha",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Hlavní město Praha",
+               "short_name" : "Hlavní město Praha",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Česká republika",
+               "short_name" : "CZ",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "110 00",
+               "short_name" : "110 00",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Revoluční, 110 00 Praha-Praha 1, Česká republika",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 50.0930918,
+                  "lng" : 14.4285927
+               },
+               "southwest" : {
+                  "lat" : 50.0888903,
+                  "lng" : 14.4266188
+               }
+            },
+            "location" : {
+               "lat" : 50.0907525,
+               "lng" : 14.4277191
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.0930918,
+                  "lng" : 14.4289547302915
+               },
+               "southwest" : {
+                  "lat" : 50.0888903,
+                  "lng" : 14.42625676970849
+               }
+            }
+         },
+         "place_id" : "ChIJVcNf0MGUC0cRHDXUWzEmAbk",
+         "types" : [ "route" ]
+      }
+   ],
+   "status" : "OK"
+}

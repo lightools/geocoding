@@ -1,0 +1,53 @@
+{
+  "id": null,
+  "resultCode": "OK",
+  "errorMessage": null,
+  "result": {
+    "type": "HIT",
+    "addresses": [
+      {
+        "type": "EXACT",
+        "values": {
+          "CITY_PART_NAME": "Staré Město",
+          "CITY_AREA_2_NAME": "Praha 1",
+          "NUMBER_ORIENT": "7",
+          "NUMBER_EVIDENCNI": null,
+          "NUMBER_WHOLE": "724/7",
+          "DISTRICT_NAME": "Hlavní město Praha",
+          "CITY_AREA_2_CODE": "19",
+          "CITY_PART_CODE": "400017",
+          "FIRST_LINE_NO_NUMBER": "Revoluční",
+          "CITY_AREA_3_NAME": "Praha 1",
+          "STREET_NAME": "Revoluční",
+          "CHAR_ORIENT": null,
+          "CODE": "21723711",
+          "POST_NAME": "Praha 1",
+          "CITY_AREA_1_CODE": "500054",
+          "COUNTRY_CODE": "CZ",
+          "NUMBER_POPISNE": "724",
+          "CITY_AREA_1_NAME": "Praha 1",
+          "CITY_CODE": "554782",
+          "REGION_CODE": "19",
+          "COUNTRY_NAME": "Česká republika",
+          "STREET_CODE": "467600",
+          "SECOND_LINE": "Praha 1 - Staré Město",
+          "DISTRICT_CODE": "3100",
+          "REGION_NAME": "Hlavní město Praha",
+          "CITY_AREA_3_CODE": "19",
+          "WHOLE_NAME": "Revoluční 724/7, 110 00 Praha 1 - Staré Město",
+          "ZIP": "11000",
+          "CITY_NAME": "Praha",
+          "FIRST_LINE": "Revoluční 724/7"
+        },
+        "coordinates": {
+          "type": "EXACT",
+          "jtskX": 1042757,
+          "jtskY": 742310,
+          "gpsLat": 50.090356,
+          "gpsLng": 14.42769
+        }
+      }
+    ],
+    "hint": null
+  }
+}

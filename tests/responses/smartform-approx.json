@@ -1,0 +1,45 @@
+{
+  "id": null,
+  "resultCode": "OK",
+  "errorMessage": null,
+  "result": {
+    "type": "PARTIAL_HIT",
+    "addresses": [
+      {
+        "type": "PARTIAL",
+        "values": {
+          "POST_NAME": "Praha 1",
+          "CITY_AREA_1_CODE": "500054",
+          "COUNTRY_CODE": "CZ",
+          "CITY_AREA_2_NAME": "Praha 1",
+          "CITY_AREA_1_NAME": "Praha 1",
+          "REGION_CODE": "19",
+          "CITY_CODE": "554782",
+          "COUNTRY_NAME": "Česká republika",
+          "STREET_CODE": "467600",
+          "DISTRICT_NAME": "Hlavní město Praha",
+          "SECOND_LINE": "Praha 1",
+          "CITY_AREA_2_CODE": "19",
+          "REGION_NAME": "Hlavní město Praha",
+          "DISTRICT_CODE": "3100",
+          "CITY_AREA_3_CODE": "19",
+          "WHOLE_NAME": "ulice Revoluční, Praha",
+          "FIRST_LINE_NO_NUMBER": "Revoluční",
+          "ZIP": "11000",
+          "CITY_NAME": "Praha",
+          "CITY_AREA_3_NAME": "Praha 1",
+          "FIRST_LINE": "Revoluční",
+          "STREET_NAME": "Revoluční"
+        },
+        "coordinates": {
+          "type": "APPROXIMATE",
+          "jtskX": 1042685.95,
+          "jtskY": 742294.34,
+          "gpsLat": 50.091017,
+          "gpsLng": 14.427759
+        }
+      }
+    ],
+    "hint": null
+  }
+}

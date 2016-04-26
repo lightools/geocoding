@@ -1,0 +1,17 @@
+{
+    "name": "lightools/geocoding",
+    "description": "Address geocoding with exact results only - may be used for address validation.",
+    "license": ["MIT"],
+    "require": {
+        "php": ">=5.4",
+        "bitbang/http": "~0.3.0"
+    },
+    "require-dev": {
+        "php": ">=5.5",
+        "nette/tester": "~1.7.1",
+        "mockery/mockery": "~0.9.4"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
