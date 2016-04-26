@@ -126,7 +126,7 @@ class GoogleGeocoder implements IGeocoder {
         $data = [];
         foreach ($result->address_components as $component) {
             foreach ($component->types as $type) {
-                $this->updateAddressComponent($data, $type, $component);
+                $data = $this->updateAddressComponent($data, $type, $component);
             }
         }
 
@@ -160,8 +160,9 @@ class GoogleGeocoder implements IGeocoder {
      * @param array $data
      * @param string $type
      * @param stdClass $values
+     * @return array
      */
-    private function updateAddressComponent(& $data, $type, stdClass $values) {
+    private function updateAddressComponent(array $data, $type, stdClass $values) {
         switch ($type) {
             case 'postal_code':
                 $data['postalCode'] = $values->long_name;
@@ -182,6 +183,8 @@ class GoogleGeocoder implements IGeocoder {
                 $data['stateCode'] = $values->short_name;
                 break;
         }
+
+        return $data;
     }
 
     /**
