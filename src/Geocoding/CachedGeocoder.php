@@ -29,7 +29,7 @@ class CachedGeocoder implements IGeocoder {
      */
     public function __construct(IGeocoder $geocoder, $tempDir) {
         $this->geocoder = $geocoder;
-        $this->cacheFile = trim($tempDir, '/') . '/geocoding.dat';
+        $this->cacheFile = rtrim($tempDir, '/') . '/geocoding.dat';
     }
 
     /**
