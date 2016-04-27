@@ -50,7 +50,7 @@ class CachedGeocoder implements IGeocoder {
         $geocoded = $this->geocoder->geocode($address);
 
         $this->results[$address] = $geocoded;
-        $this->updateCachedResults($geocoded);
+        $this->updateCachedResults();
 
         return $geocoded;
     }
