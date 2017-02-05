@@ -112,7 +112,7 @@ class GoogleGeocoder implements IGeocoder {
             if ($retrying) {
                 throw new GeocodingFailedException('Repeated server error received from Geocoding API!');
             } else {
-                $this->executeQuery($url, $retrying = TRUE);
+                $this->execute($url, $retrying = TRUE);
             }
         }
 
